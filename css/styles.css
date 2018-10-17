@@ -1,0 +1,87 @@
+body {
+	background: black;
+}
+
+.container {
+	margin: 0 auto;
+	width: 500px;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 30px;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin: 20px;
+}
+
+input {
+	background: white;
+	color: black;
+	font-size: 18px;
+	width: 87%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	padding: 0 0 0 10px;
+}
+
+.btnAddFromInput {
+	width: 10%;
+	height: 30px;
+	background: #d91322;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btnAddFromInput:hover {
+	background: #d95005;
+}
+
+li {
+	background: #d91322;
+	font-size: 18px;
+	display: block;
+	height: 30px;
+	border-radius: 5px;
+	line-height: 30px;
+	padding-left: 10px;
+	margin-bottom: 1px;
+}
+
+.removeLi {
+	background-image: url(../img/close.svg);
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin: 2px 10px 2px 2px;
+	cursor: pointer;
+}
+
+.btnNewItem {
+	width: 100px;
+	height: 30px;
+	background: #d91322;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	border: none;
+	border-radius: 5px;
+	margin-top: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btnNewItem:hover {
+	background: #d95005;
+}
